@@ -15,6 +15,7 @@ The following packages are needed for the pyhton script to work. Some of these y
   - pip install tkinter 
   - pip install subporcess
   - pip install re
+  - FFMPEG downloaded to your machine (placed in the same directory as the python script or choose the location manually) 
  
  
   How it works: 
@@ -51,7 +52,7 @@ the shorter vdieos are usually jammed packed full of content regardless.
 Notes & To-Dos: 
 - Change the quality of the videos downloaded by setting the value "quality" to 1 or 0. (0  = Low Qulaity, 1 = High Qulaity)
 - Might have a stab at manually searching youtube videos and downlaoding them for games that have no VideoURL link. currently the titles of these games are saved in the brokenlinks[] list. A better forign key will be needed for this to work 100%
+- I did not use Moviepy to trim the videos as the first 5 seconds of the video kept getting currupted/glitched 
 - Im sure there are some very easy and simple ways to make this code more efficent. My day job is not programming and this was a easy/hacky solution for me to use personally. That said im open to all your additions and changes! (but bare with me as this is my first time using my github account) 
-
-
+- USE THIS AT YOUR OWN RISK: Program downlaods, renames, deletes & trims videos. though this works well on my system, i have not tested it on any other machine. (currently running windows 10, python version 3.10.0, launchbox version 12.11).
   
