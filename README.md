@@ -25,11 +25,14 @@ The following packages are needed for the pyhton script to work. Some of these y
 Within this file there is a huge database of games that contains lots of information. what we are interested in is the following 2 items:
 - Game Title
 - VideoURL
+
 [in the code, this is the get_mastergame_list() function]
 
 we can then compare the above list to a list of games that we have installed in the following directory:
   - ~/LaunchBox/Data/Platforms/[Insert Platform].xml
+ 
  Any games that do not have a VideoURL [or mismatched ones] get added to a brokenlinks[] list.
+ 
  [in the code, this is the  match_master_to_games() function] 
  
 
